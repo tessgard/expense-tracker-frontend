@@ -9,6 +9,7 @@ const Nav = ({ title, icon }) => {
       <header className='nav-header'>
         <h1>{title}</h1>
       </header>
+
       <div className='nav'>
         <div className='button-container'>
           <button className='white-button'>
