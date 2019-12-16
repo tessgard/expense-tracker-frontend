@@ -1,7 +1,18 @@
 import React from 'react';
+import Expenses from '../expenses/Expenses'
+
 
 const ViewAll = () => {
-  return <div>view all</div>;
+  return (
+  <div>
+
+    <div>
+      <Expenses />
+    </div>
+
+
+  </div>
+  )
 };
 
 export default ViewAll;

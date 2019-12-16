@@ -1,0 +1,16 @@
+.totalExpenses {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600 ;
+  
+}
+
+.allExpenses {
+  border: 1pt solid black;
+  padding: 15px;
+  background-color: white;
+  font-size: 12px;
+  width: 200px;
+}
+

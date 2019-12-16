@@ -1,0 +1,30 @@
+
+.expenseListItem {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+.amount {
+  width: 30%;
+}
+
+.nameAndCategory {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.groceriesCategoryStyle {
+  color: pink;
+  text-align: end;
+}
+
+.drinkCategoryStyle {
+  color: blue;
+  margin-left: 10px;
+}
+
+.entertainmentCategoryStyle {
+  color: blueviolet;
+  margin-left: 10px;
+}
