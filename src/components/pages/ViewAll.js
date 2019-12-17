@@ -1,16 +1,13 @@
 import React from 'react';
-import Expenses from '../expenses/Expenses'
+import Transactions from '../transactions/Transactions'
 
 
 const ViewAll = () => {
   return (
   <div>
-
     <div>
-      <Expenses />
+      <Transactions />
     </div>
-
-
   </div>
   )
 };

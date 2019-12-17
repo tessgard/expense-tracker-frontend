@@ -8,17 +8,15 @@ const Nav = ({ title, icon }) => {
     <>
       <header className='nav-header'>
         <span>
-          <img src="../home.svg" className="home-icon"/>
+          <Link to='../home'><img src="../home.svg" className="home-icon"/></Link>
+          
         </span>
       </header>
 
       <div className='nav'>
         <div className='button-container'>
           <button className='white-button'>
-            <Link to='/expense/new'>Add expense</Link>
-          </button>
-          <button className='white-button'>
-            <Link to='/incoming/new'>Add incoming</Link>
+            <Link to='/expense/new'>Add new</Link>
           </button>
           <button className='white-button'>
             <Link to='/viewall'>View All</Link>

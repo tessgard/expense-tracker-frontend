@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './ExpenseItem.css'
+import Styles from './TransactionItem.css'
 
 
 function imageSrc(category) {
@@ -7,8 +7,8 @@ function imageSrc(category) {
 }
 
 
-export const ExpenseItem = ({ expense }) => {
-  const { name, amount, category, note, date } = expense;
+export const TransactionItem = ({ transaction }) => {
+  const { name, amount, category, note, date } = transaction;
   return (
     <>
     <div className="expenseListItem">
@@ -32,4 +32,4 @@ export const ExpenseItem = ({ expense }) => {
   )
 }
 
- export default ExpenseItem;
+ export default TransactionItem;
