@@ -12,5 +12,7 @@
   background-color: white;
   font-size: 12px;
   width: 200px;
+  box-shadow: 7px 9px 4px -4px rgba(0, 0, 0, 0.17);
+
 }
 

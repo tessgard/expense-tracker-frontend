@@ -5,11 +5,11 @@ import expenseReducer from './expenseReducer';
 import {
   ADD_EXPENSE,
   DELETE_EXPENSE,
-  SET_CURRENT,
-  CLEAR_CURRENT,
+  SET_CURRENT_EXPENSE,
+  CLEAR_CURRENT_EXPENSE,
   UPDATE_EXPENSE,
   FILTER_EXPENSE,
-  CLEAR_FILTER
+  CLEAR_FILTER_EXPENSE
 } from '../types';
 
 const ExpenseState = props => {
@@ -89,20 +89,6 @@ const ExpenseState = props => {
   };
 
   const [state, dispatch] = useReducer(expenseReducer, initialState)
-
-  // add expense
-
-  // delete expense
-
-  // set current expense
-
-  // clear current expense
-
-  // update expense
-
-  // filter expense
-
-  // clear filter
 
   return (
     <ExpenseContext.Provider

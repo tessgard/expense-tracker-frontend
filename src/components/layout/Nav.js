@@ -7,7 +7,9 @@ const Nav = ({ title, icon }) => {
   return (
     <>
       <header className='nav-header'>
-        <h1>{title}</h1>
+        <span>
+          <img src="../home.svg" className="home-icon"/>
+        </span>
       </header>
 
       <div className='nav'>
