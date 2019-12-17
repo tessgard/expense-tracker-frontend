@@ -1,11 +1,4 @@
-.totalExpenses {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 600 ;
-}
-
-.allExpenses {
+.container-new-expense {
   border: 1pt solid black;
   border-radius: 5px;
   padding: 15px;
@@ -13,4 +6,3 @@
   font-size: 12px;
   width: 200px;
 }
-

@@ -1,11 +1,26 @@
 
 .expenseListItem {
   display: flex;
-  /* justify-content: flex-start; */
+}
+
+.expenseListItem p {
+  margin: 0;
+}
+
+.edit-delete-btn {
+  height: 15px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.svg-container-edit-delete {
+  display: flex;
+  justify-content: end;
 }
 
 .amount {
   width: 30%;
+  margin-left: 10px;
 }
 
 .nameAndCategory {
@@ -27,4 +42,10 @@
 .entertainmentCategoryStyle {
   color: blueviolet;
   margin-left: 10px;
+}
+
+.separator {
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
