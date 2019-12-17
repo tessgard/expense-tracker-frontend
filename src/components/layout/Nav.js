@@ -16,7 +16,7 @@ const Nav = ({ title, icon }) => {
       <div className='nav'>
         <div className='button-container'>
           <button className='white-button'>
-            <Link to='/expense/new'>Add new</Link>
+            <Link to='/transaction/new'>Add new</Link>
           </button>
           <button className='white-button'>
             <Link to='/viewall'>View All</Link>
