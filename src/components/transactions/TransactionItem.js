@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import TransactionContext from '../../context/transaction/transactionContext'
 
 import './TransactionItem.css'
-import { SET_CURRENT } from '../../context/types'
 
 
 function imageSrc(category) {
@@ -33,7 +32,7 @@ export const TransactionItem = ({ transaction }) => {
         
       </span>
       <span className="svg-container-edit-delete">
-          <img src="edit.svg" className="edit-delete-btn"onClick={() => setCurrent(transaction)} />
+          {/* <img src="edit.svg" className="edit-delete-btn"onClick={() => setCurrent(transaction)} /> */}
           <img src="delete.svg" className="edit-delete-btn" onClick={onDelete}/>
       </span>
       
