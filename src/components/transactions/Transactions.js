@@ -1,7 +1,8 @@
 import React, { Fragment, useContext } from 'react'
 import TransactionContext from '../../context/transaction/transactionContext'
 import TransactionItem from './TransactionItem'
-import Styles from './Transactions.css'
+
+import './Transactions.css'
 
 
 const Transactions = () => {
@@ -11,11 +12,16 @@ const Transactions = () => {
 
 
   const totalTransactions = () => {
-    const result = []
+    if (transactions.length == 0) {
+      return 0
+    }
+    else {
+      const result = []
     transactions.map(transaction => {
       result.push(Number(transaction.amount))
     })
     return result.reduce((a,b)=>a+b)
+    }
   }
 
   return (
