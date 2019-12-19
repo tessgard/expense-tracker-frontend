@@ -41,7 +41,6 @@ const New = () => {
           <div><input  type="radio" name="inOrOut" value="out" checked={inOrOut === "out"} onChange={onChange}/>out</div>
         </div>
         <div className="form-divider"></div>
-
         <input
           type="text"
           placeholder="amount"
@@ -66,11 +65,9 @@ const New = () => {
           onChange={onChange}
           className="text-input"
         />
-
         <div className="radio-btn-container">
           <div>          
-            <input id="salary" type="radio" name="category" value="salary" checked={category === "salary"} onChange={onChange}
-/>
+            <input id="salary" type="radio" name="category" value="salary" checked={category === "salary"} onChange={onChange}/>
             <label for="salary" >Salary</label>
           </div>
           <div>
@@ -97,24 +94,11 @@ const New = () => {
           <div>          
             <input type="radio" name="category" value="other" checked={category === "other"} onChange={onChange}/>Other
           </div>
-
-          
         </div>
-
         <div className="submit-btn-container" >
           <img src="../add.svg" onClick={onSubmit} height="30" className="submit-icon"/>
         </div>
-        
-      
-
-
       </form>
-
-
-
-
-      
-
     </div>
   </>
 };

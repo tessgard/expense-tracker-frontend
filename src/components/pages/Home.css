@@ -1,0 +1,17 @@
+.homepage-container {
+  display: flex;
+}
+
+.register-btn {
+  width: 70px;
+  height: 30px;
+  border: 1pt solid black;
+  border-radius: 15px;
+  margin: 5px;
+  background: black;
+}
+
+.register-btn a {
+  text-decoration: none;
+  color: white;
+}

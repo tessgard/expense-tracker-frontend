@@ -3,12 +3,13 @@ import propTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
+
 const Nav = ({ title, icon }) => {
   return (
     <>
       <header className='nav-header'>
         <span>
-          <Link to='../home'><img src="../home.svg" className="home-icon"/></Link>
+          <Link to='/home'><img src="../home.svg" className="home-icon"/></Link>
           
         </span>
       </header>

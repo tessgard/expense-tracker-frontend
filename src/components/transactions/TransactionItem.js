@@ -17,6 +17,7 @@ export const TransactionItem = ({ transaction }) => {
 
   const onDelete = () => {
     deleteTransaction(id)  
+    
   }
 
 
