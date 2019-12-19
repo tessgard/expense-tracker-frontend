@@ -20,10 +20,11 @@ const Login = () => {
   const onSubmit = e => {
     e.preventDefault()
     if( email === '' || password === '') {
-      setAlert('Please enter all fields')
-    }
-    console.log("register submit")
+      setAlert('Please enter all fields', 'danger')
+    } else {
+      setAlert('you have successfully logged in', 'success')
   }
+}
 
   return (
     <div className="register-form-container">
