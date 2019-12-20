@@ -68,7 +68,7 @@ const New = () => {
         <div className="radio-btn-container">
           <div>          
             <input id="salary" type="radio" name="category" value="salary" checked={category === "salary"} onChange={onChange}/>
-            <label for="salary" >Salary</label>
+            Salary
           </div>
           <div>
             <input  type="radio" name="category" value="groceries" checked={category === "groceries"} onChange={onChange}/>Groceries

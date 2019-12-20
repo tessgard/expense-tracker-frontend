@@ -25,14 +25,12 @@ const App = () => {
                 <>
                   <Navbar />
                   <Alerts />
-
                   <Switch>
                     <Route exact path='/home' component={Home}></Route>
                     <Route exact path='/transaction/new' component={NewTransaction}></Route>
                     <Route exact path='/viewall' component={ViewAll}></Route>
                     <Route exact path='/register' component={Register}></Route>
                     <Route exact path='/login' component={Login}></Route>
-
                   </Switch>
                 </>
               </div>
