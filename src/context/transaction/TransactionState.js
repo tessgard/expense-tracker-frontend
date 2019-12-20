@@ -6,9 +6,9 @@ import {
   DELETE_TRANSACTION,
   SET_CURRENT,
   CLEAR_CURRENT,
-  UPDATE_TRANSACTION,
-  FILTER_TRANSACTION,
-  CLEAR_FILTER
+  // UPDATE_TRANSACTION,
+  // FILTER_TRANSACTION,
+  // CLEAR_FILTER
 } from '../types';
 
 var uniqid = require('uniqid');

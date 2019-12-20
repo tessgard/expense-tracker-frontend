@@ -23,7 +23,6 @@ const Register = props => {
         setAlert(error, 'danger');
         clearErrors();
       }
-      // eslint-disable-next-line
     }, [error, isAuthenticated, props.history]);
 
     const [user, setUser] = useState({
@@ -42,7 +41,7 @@ const Register = props => {
     if(name === '' || email === '' || password === '') {
       setAlert('Please enter all fields', 'danger')
     } 
-    else if (password != password2) {
+    else if (password !== password2) {
       setAlert('passwords do not match', 'danger')
     } 
     else if (password.length < 6) {
@@ -102,7 +101,7 @@ const Register = props => {
           />
         </div>
         <div className="register-btn-container" >
-          <img src="../send.svg" onClick={onSubmit} height="30" className="register-icon"/>
+          <img src="../send.svg" onClick={onSubmit} height="30" className="register-icon" alt="register icon"/>
         </div>
       </form>
 

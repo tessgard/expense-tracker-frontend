@@ -96,7 +96,7 @@ const New = () => {
           </div>
         </div>
         <div className="submit-btn-container" >
-          <img src="../add.svg" onClick={onSubmit} height="30" className="submit-icon"/>
+          <img src="../add.svg" onClick={onSubmit} height="30" className="submit-icon" alt="add icon"/>
         </div>
       </form>
     </div>

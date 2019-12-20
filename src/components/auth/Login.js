@@ -36,7 +36,7 @@ const Login = () => {
           <input className="text-input" type="text" name="password" value={password} onChange={onChange} placeholder="password"/>
         </div>
         <div className="register-btn-container" >
-          <img src="../arrow.svg" onClick={onSubmit} height="30" className="register-icon"/>
+          <img src="../arrow.svg" onClick={onSubmit} height="30" className="register-icon" alt="login icon"/>
         </div>
       </form>
 

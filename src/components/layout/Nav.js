@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import './Nav.css';
 
 
-const Nav = ({ title, icon }) => {
+const Nav = () => {
   return (
     <>
       <header className='nav-header'>
         <span>
-          <Link to='/home'><img src="../home.svg" className="home-icon"/></Link>
+          <Link to='/home'><img src="../home.svg" className="home-icon" alt="home icon"/></Link>
           
         </span>
       </header>
