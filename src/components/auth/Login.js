@@ -1,12 +1,17 @@
 import React, { useState, useContext } from 'react'
+import AuthContext from '../../context/auth/authContext'
 import AlertContext from '../../context/alert/alertContext'
 
 import './Register.css'
 
-const Login = () => {
+const Login = props => {
   const alertContext = useContext(AlertContext)
+  const authContext = useContext(AuthContext)
+
 
   const { setAlert } = alertContext;
+  const { login, error, clearErrors, isAuthenticated} = authContext
+
 
   const [user, setUser] = useState({
     email: '',
